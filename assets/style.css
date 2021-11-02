@@ -1,0 +1,21 @@
+body {
+    background-color: #3a1772;
+}
+
+header a {
+    text-decoration: none;
+    color: #5398be
+}
+
+header h1 {
+    background-color:#dea54b ;
+    padding: 20px 35px;
+}
+
+.hero {
+    background-image: url("./images/portfolio-hero.jpg") ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
