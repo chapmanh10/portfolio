@@ -1,15 +1,16 @@
 body {
-    background-color: #3a1772;
+    background-color: #000000;
 }
 
 header a {
     text-decoration: none;
-    color: #5398be
+    color: #0dab76;
 }
 
-header h1 {
-    background-color:#dea54b ;
+header {
+    background-color:#053B06 ;
     padding: 20px 35px;
+    display: flex;
 }
 
 .hero {
@@ -18,4 +19,34 @@ header h1 {
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 26px;
+    
+}
+
+nav div {
+    padding: 20px;
+}
+
+@media screen and (max-width:980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
 }
