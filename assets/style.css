@@ -1,16 +1,21 @@
 body {
-    background-color: #000000;
+    background-color: #559971;
 }
 
 header a {
     text-decoration: none;
-    color: #0dab76;
+    color: #ddc915;
 }
 
 header {
-    background-color:#053B06 ;
+    background-color: rgb(163, 108, 163) ;
     padding: 20px 35px;
     display: flex;
+    border-color:rgb(27, 121, 68);
+    border-width: 5px;
+    border-style:groove;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 .hero {
@@ -19,6 +24,9 @@ header {
     background-position: center;
     background-size: cover;
     position: relative;
+    border-style:groove;
+    border-color: rebeccapurple;
+    border-width: 5px;
 }
 
 nav {
@@ -32,6 +40,19 @@ nav {
 
 nav div {
     padding: 20px;
+}
+
+.section div {
+    color:#0c8055 ;
+    background-color:#bfd0e0 ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.about-me {
+    color: #450b53;
 }
 
 @media screen and (max-width:980px) {
@@ -51,6 +72,3 @@ nav div {
     }
 }
 
-.section {
-    color: white;
-}
