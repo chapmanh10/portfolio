@@ -1,17 +1,37 @@
+
+:root {
+    --primary-color: #0a2239;
+    --secondary-color: #53a2be;
+    --tertiary-color: #1d84b5;
+}
+
 body {
     background-color:white;
 }
 
 header a {
     text-decoration: none;
-    color:#f2d5f8
+    color:white;
 }
 
 header {
-    background-color:#8d89a6; ;
-    padding: 0 15px;
+    background-color:var(--secondary-color); 
+    padding: 15px 15px;
     display: flex;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Cormorant Garamond', serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("./images/portfolio-hero.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+h1 {
+    padding: 5px;
 }
 
 .hero {
@@ -19,7 +39,10 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
+    display: flex;
     position: relative;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 nav {
@@ -34,19 +57,35 @@ nav div {
     padding: 20px;
 }
 
+nav div:hover {
+    background: var(--tertiary-color);
+    border-radius: 35px;
+}
+
+h1 a:hover {
+    background: var(--tertiary-color);
+    border-radius: 35px;
+}
+
 .container-1 {
     display: flex;
-    justify-content: space-around;
-    background-color: #f2d5f8;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
     padding: 20px;
-    flex-wrap: wrap;
+    color: white;
+    
 }
 
 .container-1 div {
     border-radius: 5px;
     box-shadow: 5px 10px 10px gray;
-    padding: 20px;
-    background-color:#bfabcb;
+    padding: 10px;
+    background-color:var(--tertiary-color);
+    width: 300px;
+   text-align: center;
+
+
 }
 
 .container-1 div:hover {
@@ -70,15 +109,24 @@ nav div {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
         width: 100%;
-        text-align: center;
+       
     }
 
     nav div {
         text-align: center;
     }
+
+    .container-1 {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    
 }
+
 
