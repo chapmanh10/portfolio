@@ -4,7 +4,7 @@
 
 :root {
     --primary-color: #235381;
-    --secondary-color: #53a2be;
+    --secondary-color: #17346b;
     --tertiary-color: #1e2244;
     --hover:rgba(0,0,0,.25);
 }
@@ -129,13 +129,25 @@ p {
 
 .app {
     height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
+
+.app-title{
+    background-color: var(--secondary-color);
+    height: 100px;
+    padding:0;
+}
+
 .horiseon {
     background-image: url(./images/Horiseon-Screenshot.png);
+    background-size:cover;
 }
 
 .run-buddy {
     background-image: url(./images/run-buddy-screenshot.jpeg);
+    background-size: cover;
 }
 
 footer {
