@@ -9,7 +9,7 @@
     --hover:rgba(0,0,0,.25);
 }
 
-header a {
+a {
     text-decoration: none;
     color:white;
 }
