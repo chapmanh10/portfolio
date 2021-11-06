@@ -136,14 +136,15 @@ p {
     row-gap: 20px;
 }
 
-.box-4 {
-    background-image: url(./images/Horiseon-Screenshot.png);
+.app {
     height: 300px;
 }
+.horiseon {
+    background-image: url(./images/Horiseon-Screenshot.png);
+}
 
-.box-5 {
+.run-buddy {
     background-image: url(./images/run-buddy-screenshot.jpeg);
-    height: 300px;
 }
 
 footer {
