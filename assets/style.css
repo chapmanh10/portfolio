@@ -115,14 +115,15 @@ nav div:hover {
 
 .box-1 {
     height: 100px;
-    background-color:var(--secondary-translucent);
+    background-color:var(--hover);
 }
 
 .box-2 {
     background-color: white;
     color: black;
-    box-shadow: 1px 1px 10px gray;
-    
+    border-color: var(--secondary-color);
+    border-bottom: 2px solid;
+    border-left: 2px solid;
 }
 
 .box-1 h2, .box-3 h2 {
@@ -133,7 +134,7 @@ nav div:hover {
     font-size: 20px;
 }
 
-.box-2:hover, .container-2 div:hover, .container-3 div:hover{
+.container-2 div:hover, .container-3 div:hover{
     box-shadow: 20px 20px 30px gray;
 }
 
