@@ -5,7 +5,7 @@
 :root {
     --primary-color: #235381;
     --secondary-color: #1a3974;
-    --tertiary-color: #1e2244;
+    --tertiary-color: #e28113;
     --hover:rgba(0,0,0,.25);
 }
 
@@ -166,6 +166,7 @@ footer {
     background-position: 80%;
     color: white;
     font-size: 24px;
+    padding-left: 20px;
 }
 
 .footer-translucent {
