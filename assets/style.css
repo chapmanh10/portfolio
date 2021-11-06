@@ -160,15 +160,18 @@ p {
 }
 
 footer {
-    background: var(--primary-color);
+    background-image: url("./images/portfolio-hero.jpg") ; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     color: white;
-    text-align: center;
-    padding: 5px;
     font-size: 24px;
-
 }
 
-
+.footer-translucent {
+    background-color: var(--hover);
+    display: flex;
+}
 
 
 
