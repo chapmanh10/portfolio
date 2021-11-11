@@ -12,4 +12,4 @@ Currently this repository contains:
 
 ### [Access the site by this link!](https://chapmanh10.github.io/portfolio/)
 
-![Portfolio Landing Page](/assets/images/Portfolio-screenshot.png)
+![Portfolio Landing Page](./assets/images/Portfolio-screenshot.png)
