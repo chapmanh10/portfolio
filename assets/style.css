@@ -91,12 +91,12 @@ nav div:hover {
 }
 
 .container-apps {
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 20px;
 }
 
 .box {
-    width: 400px;
+    width: 500px;
     text-align: center;
 }
 
@@ -134,7 +134,7 @@ p {
 }
 
 .app {
-    height: 300px;
+    height: 400px;
     display: flex;
 }
 
@@ -162,7 +162,7 @@ p {
 }
 
 .first {
-    width: 800px;
+    width: 1225px;
 }
 
 .run-buddy {
@@ -180,8 +180,9 @@ p {
     background-image: url(./images/contact-background.jpg);
     background-attachment: fixed;
     text-align: center;
-    margin: 0 10%;
-    border-radius: 15px;
+    margin: 10px 10%;
+    padding: 10px 0 10px 0;
+    border-bottom: 10px;
 }
 
 footer {
@@ -202,7 +203,13 @@ footer {
 
 
 
-
+@media screen and (max-width: 1740px) {
+    .first {
+        width: 1300px;
+    
+    }
+    
+    }
 
 
 
@@ -225,6 +232,10 @@ footer {
         display: flex;
         flex-wrap:wrap;
       
+    }
+
+    .first {
+        width: 800px;
     }
     
 }
@@ -250,20 +261,10 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-
 .first {
-    width: 400px;
+    width: 500px;
+
 }
 
-
-
-@media screen and (max-width: 575px) {
-
- 
-
-  
 }
 
-@media screen and (max-width: 375px) {
-
-}}
