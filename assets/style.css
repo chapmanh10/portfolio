@@ -155,8 +155,8 @@ p {
     background-color: rgba(0,0,0,0);
 }
 
-.horiseon {
-    background-image: url(./images/Horiseon-Screenshot.png);
+.weather-dashboard {
+    background-image: url(./images/weatherdashboard.jpeg);
     background-size:cover;
 
 }
@@ -165,8 +165,8 @@ p {
     width: 1225px;
 }
 
-.run-buddy {
-    background-image: url(./images/run-buddy-screenshot.jpeg);
+.laughing-spirits {
+    background-image: url(./images/laughingspirits.jpeg);
     background-size: cover;
 }
 
